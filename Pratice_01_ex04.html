@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<thead></thead>
+<tbody>
+    <form action="#" method="post">
+        <fieldset>
+            <table>
+                <legend>Basic Info</legend>
+                <tr>
+                    <td><label for="employeeID">Employee ID</label></td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td>Dodsworth</td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name</label></td>
+                    <td><input type="text" placeholder="Anne"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td><table>
+                        <tr>
+                        <td><input type="radio" name="gender" id="male"></td>
+                        <td><label for="male">Male</label></td>
+
+                        <td><input type="radio" name="gender" id="female"></td>
+                        <td><label for="female">Female</label></td>
+
+                        <td><input type="radio" name="gender" id="gender-xxx"></td>
+                        <td><label for="gender-xxx">XXX</label></td>
+
+                        <td><input type="radio" name="gender" id="gender-zzz"></td>
+                        <td><label for="gender-zzz">ZZZ</label></td>
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td><label for="title">Title</label></td>
+                    <td><input type="text" name="title" id="title" placeholder="Sales Representative"></td>
+                </tr>
+                <tr>
+                    <td><label for="suffix">Suffix</label></td>
+                    <td><input type="text" name="suffix" id="suffix" value="Ms."></td>
+                </tr>
+                <tr>
+                    <td><label for="birth-d">Birth Date</label></td>
+                    <td><input type="date" name="birth-d" id="birth-d"></td>
+                </tr>
+                <tr>
+                    <td><label for="hire-d">Hire Date</label></td>
+                    <td><input type="date" name="hire-d" id="hire-d"></td>
+                </tr>
+                <tr>
+                    <td><label for="ssn">SSN # (if applicable)</label></td>
+                    <td><input type="text" name="ssn" id="ssn"></td>
+                </tr>
+                <tr>
+                    <td><label for="reports">Reports To</label></td>
+                    <td><select name="reports" id="reports">
+                            <option value="Buchnna">Bunchana</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <table>
+                <legend>Contact Info</legend>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="name@example.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><input type="text" name="address" id="address" value="7 Houndstooth Rd."></td>
+                </tr>
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td><input type="text" name="city" id="city" value="London"></td>
+                </tr>
+                <tr>
+                    <td><label for="region">Region</label></td>
+                    <td><input type="text" name="city" id="city"></td>
+                </tr>
+                <tr>
+                    <td><label for="postalcode">Postal Code</label></td>
+                    <td><input type="text" name="postalcode" id="postalcode" value="WG2 7LT"></td>
+                </tr>
+                <tr>
+                    <td><label for="contry">Contry</label></td>
+                    <td><select name="contry" id="contry">
+                            <option value="Russia">Russia Federation</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="homephone">US Home Phone</label></td>
+                    <td><input type="tel" name="homephone" id="homephone" value="(234)234-2342"></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">Photo</label></td>
+                    <td><input type="file" name="photo" id="photo" value="EmpID9.bmp"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <table>
+                <legend>Option Info</legend>
+                <tr>
+                    <td><label for="note">Notes</label></td>
+                    <td><textarea name="note" id="note"></textarea></td>
+                </tr>
+                <tr>
+                	<td><label>Preferred Shift</label></td>
+                    <td><table>
+                        <tr>
+                    	<td><input type ="checkbox" name="preferred[]" id="regular" value="Regular"></td>
+                    	<td><label for="regular">Regular</label></td>
+                    
+                    	<td><input type ="checkbox" name="preferred[]" id="gravy" value="gravy yard"></td>
+                    	<td><label for="gravy">Gravy Yard</label></td>
+                    </table></td>
+                </tr>
+                <tr>
+                	<td><label>Active?</label></td>
+                    <td><table>
+                        <tr>
+                    	<td><input type ="checkbox" name="active" id="active" value="active"></td>
+                    	<td><label for="active"></label></td>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td><label>Are you human?</label></td>
+                    <td><span>
+                        T I D A W O
+                    </span>
+                    <button type="button">Click to change</button><br><br>
+                    <input type="text" size="50"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <table width="100%">
+            <tr>
+                <td>
+                    <button type="button"><</button>
+                    <button type="button">></button>
+                    <br>
+                    <font>* required</font>
+                </td>
+
+                <td align="right">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</tbody>
+</html>
