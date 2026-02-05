@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Employee</h1>
+        <form action="index.html">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+            
+            <label>Position</label>
+                <select>
+                    <option value="staff">Staff</option>
+                    <option value="manager">Manager</option>
+                    <option value="ceo">CEO</option>
+                </select>
+            
+            <label for="sex">Sex</label>
+                <input type="radio" name="sex" id="male" >
+                <label for="male">Male</label>
+
+                <input type="radio" name="sex" id="female">
+                <label for="female">Female</label>
+
+            <button>Save</button>
+            <button>Cancel</button>
+        </form>
+    </div>
+</body>
+</html>

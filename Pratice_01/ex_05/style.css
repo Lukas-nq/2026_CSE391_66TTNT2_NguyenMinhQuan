@@ -1,0 +1,76 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+}
+.header span{
+    font-weight: bold;
+    margin-right: 15px;
+}
+.header a {
+    color: aliceblue;
+    margin-right: 10px;
+}
+.container {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+}
+h1{
+    margin-top: 0;
+}
+.add{
+    background-color: blue;
+    color: aliceblue;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: black;
+}
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+button:first-child{
+    background-color: goldenrod;
+    color: black;
+}
+button:last-child{
+    background-color: crimson;
+    color: aliceblue;
+}
+form label{
+    display: block;
+    margin-top: 10px;
+}
+input, select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+form button{
+    margin-top: 15px;
+    background-color: darkgreen;
+    color: aliceblue;
+}
+form a{
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: grey;
+    color: aliceblue;
+    padding: 6px 12px;
+}
