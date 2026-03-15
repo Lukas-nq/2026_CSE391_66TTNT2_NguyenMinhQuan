@@ -1,0 +1,24 @@
+.container{
+    background-color: rgb(227, 246, 246);
+    padding: 15px;  
+}
+.class{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#list{
+    background-color: rgb(227, 246, 246);
+    display: flex;
+    justify-content: center;
+}
+#search-container{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}

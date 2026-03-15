@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex_01.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Nhập thông tin sinh viên</h2>
+
+    <form class="class">
+        <input type="text" id="name" placeholder="Nguyen Van A">
+        <input type="number" id="score" placeholder="10.0">
+        <button id="btn_submit" type="submit">Thêm</button>
+    </form>
+
+    <br>
+    <div id = "search-container">
+        <input type="text" id="search" placeholder="Nhập tên cần tìm..">
+    
+
+        <select id="rank">
+            <option value="all">Tất cả</option>
+            <option value="Giỏi">Giỏi</option>
+            <option value="Khá">Khá</option>
+            <option value="Trung bình">Trung bình</option>
+            <option value="Yếu">Yếu</option>
+        </select>
+    </div>
+
+</div>
+
+<div id="list">
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Stt</th>
+                <th>Tên</th>
+                <th id="sortScore">Điểm</th>
+                <th>Xếp loại</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+
+        <tbody id="infor">
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" id="total">Tổng sinh viên:</td>
+                <td colspan="4" id="avg">Điểm trung bình:</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</div>
+
+<script src="ex_01.js"></script>
+
+</body>
+</html>

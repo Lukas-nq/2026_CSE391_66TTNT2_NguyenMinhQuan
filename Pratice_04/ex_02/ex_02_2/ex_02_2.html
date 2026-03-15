@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex_02_2.css">
+</head>
+<body>  
+    <form id = "oder_form">
+        <label>Sản phẩm</label>
+        <select id="product">
+            <option value="">Chọn sản phẩm</option>
+            <option value="ao">Áo</option>
+            <option value="quan">Quần</option>
+            <option value="mu">Mũ</option>
+        </select>
+        <span class = "error" id = "product_error"></span>
+
+        <label>Số lượng</label>
+        <input type="number" id = "quantity">
+        <span class = "error" id = "quantity_error"></span>
+
+        <label>Ngày giao</label>
+        <input type="date" id="date">
+        <span class = "error" id = "date_error"></span>
+
+        <label>Địa chỉ</label>
+        <input type="text" id="address">
+        <span class = "error" id = "address_error"></span>
+
+        <label>Ghi chú</label>
+        <textarea id="note"></textarea>
+        <div id="note_count">0/200</div>
+        <span class = "error" id = "note_error"></span>
+
+        <label>Thanh toán</label>
+        <input type="radio" name="pay" value="cod">COD
+        <input type="radio" name="pay" value="bank">Chuyển Khoản
+        <input type="radio" name="pay" value="wallet">Ví điện tử
+        <span class = "error" id = "pay_error"></span>
+
+        <div>
+            Tổng tiền: <span id = "total">0</span>
+        </div>
+
+        <button type="submit">Đặt hàng</button>
+    </form>
+
+    <div id = "confirm_box" style="display: none;"></div>
+
+    <script src = "ex_02_2.js"></script>
+    
+</body>
+</html>
